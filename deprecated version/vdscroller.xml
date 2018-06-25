@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\Jason\Documents\Maker Projects\vdscroller\vdscroller.sch</source>
+    <date>2/21/2018 11:09:22 PM</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>vdscroller.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>ESP-12</value>
+      <footprint>RF_Modules:ESP-12E</footprint>
+      <libsource lib="adafruit" part="ESP-12"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A810F8A</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="PartNo">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A811031</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>AP2112K-3.3</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-5_HandSoldering</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP2112.pdf</datasheet>
+      <fields>
+        <field name="PartNo">AP2112K-3.3TRG1</field>
+      </fields>
+      <libsource lib="regul" part="AP2112K-3.3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A824D18</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="PartNo">C0603C105K4RACTU</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A824EFC</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="PartNo">C0603C105K4RACTU</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A82515F</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="PartNo">ERJ-3GEYJ103V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8251EE</tstamp>
+    </comp>
+    <comp ref="IC-Charger1">
+      <value>MCP73831_SOT23-5</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-5_HandSoldering</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/MCP73831.pdf</datasheet>
+      <fields>
+        <field name="PartNo">MCP73831T-2DCI/OT</field>
+      </fields>
+      <libsource lib="adafruit" part="MCP73831"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A826527</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>4u7</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="PartNo">C0603C475M8PACTU</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8256C4</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>4u7</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="PartNo">C0603C475M8PACTU</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A825874</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>IS31FL3731</value>
+      <footprint>Housings_DFN_QFN:QFN-28-1EP_4x4mm_Pitch0.4mm</footprint>
+      <libsource lib="digital-audio" part="IS31FL3731"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8260E4</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="PartNo">C0603C106M9PACTU</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A82622F</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="PartNo">C0603C104K4RAC</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8262AF</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="PartNo">C0603C106M9PACTU</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A826602</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>20k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="PartNo">ERJ-3GEYJ203V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8267B7</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>20k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="PartNo">ERJ-3GEYJ203V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8268A2</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>20k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="PartNo">ERJ-3GEYJ203V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A826900</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>20k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="PartNo">ERJ-3GEYJ203V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A82695E</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>20k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="PartNo">ERJ-3GEYJ203V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A826D3D</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="PartNo">C0603C104K4RAC</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A826DA6</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>20k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="PartNo">ERJ-3GEYJ203V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A827060</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>USB_OTG</value>
+      <footprint>Connectors_USB:USB_Micro-B_Molex-105017-0001</footprint>
+      <libsource lib="conn" part="USB_OTG"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A83CF02</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>GREEN</value>
+      <footprint>LEDs:LED_0603_HandSoldering</footprint>
+      <fields>
+        <field name="PartNo">LTST-C190KGKT</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A83C0D3</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>RED</value>
+      <footprint>LEDs:LED_0603_HandSoldering</footprint>
+      <fields>
+        <field name="PartNo">LTST-C190KRKT</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A83C160</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>470</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="PartNo">ERJ-3GEYJ471V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A83C272</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>470</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="PartNo">ERJ-3GEYJ471V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A83C318</tstamp>
+    </comp>
+    <comp ref="CN1">
+      <value>JST_2PIN</value>
+      <footprint>Connectors_JST:JST_PH_S2B-PH-K_02x2.00mm_Angled</footprint>
+      <libsource lib="adafruit" part="JST_2PIN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A83CD05</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>2k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="PartNo">ERJ-3GEYJ202V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A83D282</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>PINHD-1X13</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x13_Pitch2.54mm</footprint>
+      <libsource lib="adafruit" part="PINHD-1X13"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A83FCA9</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>PINHD-1X13</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x13_Pitch2.54mm</footprint>
+      <libsource lib="adafruit" part="PINHD-1X13"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A83FD35</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>SI3805</value>
+      <footprint>TO_SOT_Packages_SMD:TSOT-23-6_HandSoldering</footprint>
+      <datasheet>http://www.vishay.com/docs/68912/si3805dv.pdf</datasheet>
+      <fields>
+        <field name="PartNo">SI3805DV-T1-GE3</field>
+      </fields>
+      <libsource lib="vdscroller-rescue" part="SI3805-RESCUE-vdscroller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8BA815</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="PartNo">ERJ-3GEYJ104V</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8BA9D7</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="regul" part="AP2112K-3.3">
+      <description>150mA low dropout linear regulator, wide input voltage range, 1.5V fixed positive output, SOT-23-5 package</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP2204.pdf</docs>
+      <footprints>
+        <fp>SOT?23?5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP2112K-3.3</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="adafruit" part="ESP-12">
+      <footprints>
+        <fp>*ESP-12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">ESP-12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RESET" type="input"/>
+        <pin num="2" name="ADC" type="passive"/>
+        <pin num="3" name="CH_PD" type="input"/>
+        <pin num="4" name="GPIO16" type="BiDi"/>
+        <pin num="5" name="GPIO14" type="BiDi"/>
+        <pin num="6" name="GPIO12" type="BiDi"/>
+        <pin num="7" name="GPIO13" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="GPIO15" type="BiDi"/>
+        <pin num="11" name="GPIO2" type="BiDi"/>
+        <pin num="12" name="GPIO0" type="BiDi"/>
+        <pin num="13" name="GPIO5" type="BiDi"/>
+        <pin num="14" name="GPIO4" type="BiDi"/>
+        <pin num="15" name="RXD" type="input"/>
+        <pin num="16" name="TXD" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="digital-audio" part="IS31FL3731">
+      <description>Charlieplex LED Driver</description>
+      <docs>http://www.issi.com/WW/pdf/31FL3731.pdf</docs>
+      <footprints>
+        <fp>QFN*28*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IS31FL3731</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CA9" type="output"/>
+        <pin num="2" name="Vcc" type="power_in"/>
+        <pin num="3" name="SDB" type="output"/>
+        <pin num="4" name="INTB" type="input"/>
+        <pin num="5" name="GND" type="output"/>
+        <pin num="6" name="R_EXT" type="output"/>
+        <pin num="7" name="CB1" type="output"/>
+        <pin num="8" name="CB2" type="output"/>
+        <pin num="9" name="CB3" type="output"/>
+        <pin num="10" name="CB4" type="output"/>
+        <pin num="11" name="CB5" type="output"/>
+        <pin num="12" name="CB6" type="output"/>
+        <pin num="13" name="CB7" type="output"/>
+        <pin num="14" name="CB8" type="output"/>
+        <pin num="15" name="CB9" type="output"/>
+        <pin num="16" name="C_FILT" type="output"/>
+        <pin num="17" name="AUDIO" type="input"/>
+        <pin num="18" name="AD" type="output"/>
+        <pin num="19" name="SDA" type="input"/>
+        <pin num="20" name="SCL" type="input"/>
+        <pin num="21" name="CA1" type="output"/>
+        <pin num="22" name="CA2" type="output"/>
+        <pin num="23" name="CA3" type="output"/>
+        <pin num="24" name="CA4" type="output"/>
+        <pin num="25" name="CA5" type="output"/>
+        <pin num="26" name="CA6" type="output"/>
+        <pin num="27" name="CA7" type="output"/>
+        <pin num="28" name="CA8" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="adafruit" part="JST_2PIN">
+      <footprints>
+        <fp>*JST-PH-2-SMT*</fp>
+        <fp>*JST-PH-2-SMT-RA*</fp>
+        <fp>*JST-PH-2-THM*</fp>
+        <fp>*JST-PH-2-THM-RA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">CN</field>
+        <field name="Value">JST_2PIN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="2" type="passive"/>
+        <pin num="2" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <description>LED generic</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="adafruit" part="MCP73831">
+      <footprints>
+        <fp>*SOT23-5L*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MCP73831</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VBAT" type="BiDi"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="adafruit" part="PINHD-1X13">
+      <footprints>
+        <fp>*1X13*</fp>
+        <fp>*1X13-BIG*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">PINHD-1X13</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="vdscroller-rescue" part="SI3805-RESCUE-vdscroller">
+      <footprints>
+        <fp>*TSOP-6*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SI3805-RESCUE-vdscroller</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="power_in"/>
+        <pin num="2" name="S" type="power_in"/>
+        <pin num="3" name="G" type="input"/>
+        <pin num="4" name="D" type="power_out"/>
+        <pin num="5" name="~" type="NotConnected"/>
+        <pin num="6" name="K" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="USB_OTG">
+      <description>USB mini/micro connector</description>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_OTG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>D:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="digital-audio">
+      <uri>D:\Program Files\KiCad\share\kicad\library\digital-audio.lib</uri>
+    </library>
+    <library logical="vdscroller-rescue">
+      <uri>D:\Jason\Documents\Maker Projects\vdscroller\vdscroller-rescue.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>D:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="adafruit">
+      <uri>D:\Jason\Downloads\Adafruit-Eagle-Library.kicad-master\Adafruit-Eagle-Library.kicad-master\adafruit.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>D:\Program Files\KiCad\share\kicad\library\regul.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/SCL">
+      <node ref="U3" pin="20"/>
+      <node ref="U2" pin="13"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="2" name="/SDB">
+      <node ref="R6" pin="2"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="3" name="/INTB">
+      <node ref="U3" pin="4"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="4" name="/SDA">
+      <node ref="R3" pin="2"/>
+      <node ref="U2" pin="14"/>
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="JP1" pin="11"/>
+      <node ref="R12" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U3" pin="5"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U2" pin="9"/>
+      <node ref="C1" pin="1"/>
+      <node ref="IC-Charger1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="J5" pin="5"/>
+      <node ref="CN1" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="6" name="/CA7">
+      <node ref="U3" pin="27"/>
+      <node ref="JP1" pin="7"/>
+    </net>
+    <net code="7" name="/CA6">
+      <node ref="U3" pin="26"/>
+      <node ref="JP1" pin="6"/>
+    </net>
+    <net code="8" name="/CA5">
+      <node ref="JP1" pin="5"/>
+      <node ref="U3" pin="25"/>
+    </net>
+    <net code="9" name="/CA4">
+      <node ref="JP1" pin="4"/>
+      <node ref="U3" pin="24"/>
+    </net>
+    <net code="10" name="/CA3">
+      <node ref="U3" pin="23"/>
+      <node ref="JP1" pin="3"/>
+    </net>
+    <net code="11" name="/CA2">
+      <node ref="JP1" pin="2"/>
+      <node ref="U3" pin="22"/>
+    </net>
+    <net code="12" name="/CA1">
+      <node ref="JP1" pin="1"/>
+      <node ref="U3" pin="21"/>
+    </net>
+    <net code="13" name="/ADDR">
+      <node ref="U3" pin="18"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="14" name="Net-(IC-Charger1-Pad5)">
+      <node ref="R11" pin="2"/>
+      <node ref="IC-Charger1" pin="5"/>
+    </net>
+    <net code="15" name="/Tx">
+      <node ref="U2" pin="16"/>
+      <node ref="JP1" pin="13"/>
+    </net>
+    <net code="16" name="/Rx">
+      <node ref="U2" pin="15"/>
+      <node ref="JP1" pin="12"/>
+    </net>
+    <net code="17" name="Net-(R2-Pad2)">
+      <node ref="U2" pin="3"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="18" name="/CA8">
+      <node ref="JP1" pin="8"/>
+      <node ref="U3" pin="28"/>
+    </net>
+    <net code="19" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="21" name="Net-(C4-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="22" name="/CFILT">
+      <node ref="C9" pin="1"/>
+      <node ref="U3" pin="16"/>
+    </net>
+    <net code="23" name="/REXT">
+      <node ref="U3" pin="6"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="24" name="Net-(C2-Pad1)">
+      <node ref="IC-Charger1" pin="3"/>
+      <node ref="CN1" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="25" name="/CB9">
+      <node ref="U3" pin="15"/>
+      <node ref="JP2" pin="13"/>
+    </net>
+    <net code="26" name="/CB4">
+      <node ref="JP2" pin="8"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="27" name="/CB3">
+      <node ref="JP2" pin="7"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="28" name="/CB2">
+      <node ref="U3" pin="8"/>
+      <node ref="JP2" pin="6"/>
+    </net>
+    <net code="29" name="/CB1">
+      <node ref="JP2" pin="5"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="30" name="Net-(JP2-Pad4)">
+      <node ref="JP2" pin="4"/>
+    </net>
+    <net code="31" name="/CB5">
+      <node ref="JP2" pin="9"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="32" name="/CB8">
+      <node ref="JP2" pin="12"/>
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="33" name="/CB7">
+      <node ref="U3" pin="13"/>
+      <node ref="JP2" pin="11"/>
+    </net>
+    <net code="34" name="/CB6">
+      <node ref="U3" pin="12"/>
+      <node ref="JP2" pin="10"/>
+    </net>
+    <net code="35" name="/CA9">
+      <node ref="JP1" pin="9"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="36" name="Net-(IC-Charger1-Pad1)">
+      <node ref="IC-Charger1" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="37" name="Net-(U3-Pad17)">
+      <node ref="U3" pin="17"/>
+    </net>
+    <net code="38" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="39" name="Net-(U2-Pad12)">
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="40" name="Net-(U2-Pad10)">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="41" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="42" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="43" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="44" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="45" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="46" name="VBUS">
+      <node ref="IC-Charger1" pin="4"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R12" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="47" name="Net-(U4-Pad4)">
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="48" name="Net-(JP2-Pad3)">
+      <node ref="JP2" pin="3"/>
+    </net>
+    <net code="49" name="Net-(JP2-Pad2)">
+      <node ref="JP2" pin="2"/>
+    </net>
+    <net code="50" name="Net-(JP2-Pad1)">
+      <node ref="JP2" pin="1"/>
+    </net>
+    <net code="51" name="Net-(J5-Pad6)">
+      <node ref="J5" pin="6"/>
+    </net>
+    <net code="52" name="Net-(J5-Pad4)">
+      <node ref="J5" pin="4"/>
+    </net>
+    <net code="53" name="Net-(J5-Pad3)">
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="54" name="Net-(J5-Pad2)">
+      <node ref="J5" pin="2"/>
+    </net>
+    <net code="55" name="VCC">
+      <node ref="R6" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U4" pin="5"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="JP1" pin="10"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="56" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="57" name="Net-(D2-Pad1)">
+      <node ref="R9" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="58" name="Net-(D3-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="D3" pin="2"/>
+    </net>
+  </nets>
+</export>

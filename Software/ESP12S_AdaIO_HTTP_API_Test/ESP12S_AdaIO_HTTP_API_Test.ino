@@ -17,6 +17,8 @@ ADC_MODE(ADC_VCC); //setup ESP8266 ADC to measure VCC and NOT use A0 pin
 char* wifiaps[2][2] = {{"bleepblorp", "1234"}, {"blerg", "VUrocks00!!"}};
 WiFiClient client;
 HTTPClient http;
+//bleep bleepblorp
+#define BLARG 13
 
 //setup charliplexed LED controller board
 Adafruit_IS31FL3731 matrix = Adafruit_IS31FL3731();
@@ -39,7 +41,7 @@ void drawhearts() {
     matrix.clear();
     matrix.drawBitmap(x,0, hearts, 36, 8, 255/4);
     delay(25);
-  }  
+  }
 }
 
 bool wifi_connect() {
@@ -56,14 +58,14 @@ bool wifi_connect() {
         delay(500);
         counter++;
         if(counter > 15) {
-          break; 
+          break;
         }
       }
       if(WiFi.status() == WL_CONNECTED) {
         Serial.println(" Success!");
         return true;
       }
-      Serial.println(" Failed!");    
+      Serial.println(" Failed!");
     }
     break;
   }
@@ -71,9 +73,9 @@ bool wifi_connect() {
 }
 
 void setup() {
-  
+
   pinMode(DONE_PIN, OUTPUT);
-  // start the serial connection    
+  // start the serial connection
   Serial.begin(115200);
   //rtc_test.goodwifiap = 0;
   //rtc_test.lastbatt = 0;
@@ -96,7 +98,7 @@ void setup() {
   Serial.println();
   Serial.println("WiFi Connected.");
   Serial.print("IP address: ");Serial.println(WiFi.localIP());Serial.println();
-  
+
   //read Vcc and send to AIO
   uint16_t current = ESP.getVcc(); //read current Vcc on ESP8266
   Serial.println();Serial.println("Reading Vcc on ESP8266.");
@@ -111,7 +113,7 @@ void setup() {
   http.addHeader("NULL", "NULL");
   http.POST(sendBatt);
   http.writeToStream(&Serial);
-  http.end();  
+  http.end();
   http.begin(HEART_LAST, fingerprint);
   http.addHeader("X-AIO-Key", AIO_KEY);
   int httpCode = http.GET();
@@ -136,7 +138,7 @@ void setup() {
       http.addHeader("NULL", "NULL");
       http.POST(clearHeart);
       http.writeToStream(&Serial);
-      http.end(); 
+      http.end();
     }
   }
   Serial.println("Going to deep sleep for 5min.");
